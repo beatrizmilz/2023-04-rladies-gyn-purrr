@@ -1,0 +1,142 @@
+---
+title: "Introdução ao purrr"
+subtitle: "R-Ladies Goiânia"
+author: "[Beatriz Milz](https://twitter.com/BeaMilz)"
+format: 
+  rladies-revealjs:
+    footer: "Slides por [Beatriz Milz](https://beamilz.com) (@BeaMilz), feito com [Quarto](https://quarto.org/docs/presentations/revealjs/index.html) e [Quarto R-Ladies Theme](https://github.com/beatrizmilz/quarto-rladies-theme#quarto-r-ladies-theme)."
+incremental: false
+---
+
+## Beatriz Milz {.center .aboutmeslide}
+
+-   Co-organizadora [R-Ladies São Paulo](https://rladies-sp.org)
+
+-   Professora e consultora na [Curso-R](https://curso-r.com/)
+
+-   Instrutora de Tidyverse certificada pela RStudio
+    
+- Contato:
+   - Twitter: [\@BeaMilz](https://twitter.com/BeaMilz)
+   - Blog: [beamilz.com](https://beamilz.com)
+
+
+
+<img src="img/octocat-1656339210373.png" style="right: -10px;height: 80%;top: -10px;position: absolute;"/>
+
+
+## Conteúdos que estou mais envolvida
+
+- Meu blog: <https://beamilz.com>
+
+- Blog da R-Ladies São Paulo: <https://rladies-sp.org/>
+
+- Curso-R:
+  - Vídeos no youtube
+  - Blog
+  - Cursos
+  
+## Agenda para hoje
+
+- Conteúdos de R básico importantes para entender `purrr`
+
+- Introdução ao `purrr`
+
+- Exemplos práticos do uso do `purrr`
+
+# Conteúdos de R básico importantes para entender `purrr`
+Vamos ao script `01-r-base.R`!
+
+
+
+# Introdução ao purrr
+
+## O que é o purrr?
+
+-   Um pacote de R
+
+-   Uma caixa de ferramentas para programação funcional
+
+-   Muitas das funções do purrr são alternativas aos loops feito com `for`
+
+- Código com `{purrr}` é mais curto e claro, comparado aos loops com `for`.
+
+-   Saber usar `{purrr}` permite que você use o pacote `{furrr}`: tem a mesma sintaxe, mas permite executar códigos de forma paralela
+
+::: footer
+
+Fonte: [Hadley Wickham](https://www.youtube.com/watch?v=EGAs7zuRutY)
+
+:::
+
+## Versão do purrr
+
+- Tenha a versão 1.0.0 ou superior instalada.
+
+- Para saber a versão, utilize a função:
+
+```{r}
+#| echo: true
+packageVersion("purrr")
+```
+
+- Para atualizar, utilize a função:
+
+```{r}
+#| eval: false
+#| echo: true
+install.packages("purrr")
+```
+
+
+## Funções
+
+- O pacote purrr tem muitas funções!
+
+- Muitas funcionam de forma similar.
+
+- Vamos focar em algumas hoje :)
+
+  - map()
+
+  - map_vec()
+
+  - list_c()
+
+  - list_cbind(), list_rbind()
+
+  - pluck()
+  
+  - set_names()
+
+## map()
+
+TODO!
+
+
+## map_vec()
+
+- O tamanho do vetor de saída sempre será igual ao tamanho do vetor de entrada.
+
+## pluck()
+
+![](https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/fee602ac-0e13-4313-ac4c-9a93d8d74eab_rw_3840.png?h=caf16fae25e86a2157dafb38ef3a8ec4){fig-align="center" width="70%"}
+
+::: footer
+
+Fonte: [Allison Horst](https://allisonhorst.com/data-science-art)
+
+:::
+
+## Dicas para debug
+
+# Exemplos práticos do uso do `purrr`
+
+TODO!
+
+
+- importação de várias bases
+- Group split
+- Relatórios com parâmetros
+- Web Scraping
+

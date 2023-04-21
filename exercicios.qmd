@@ -1,0 +1,31 @@
+---
+title: "Exercícios"
+author: "Beatriz Milz"
+---
+
+```{r}
+#| echo: false
+
+r_file_as_code <- function(file){
+  code <- readLines(file) |> 
+  paste0(collapse = "\n")
+
+paste0(
+  '<div class="sourceCode">
+<pre class="downlit sourceCode r code-with-copy">
+<code class="sourceCode R">
+',
+  code,
+  '</code></pre></div>'
+) |> 
+  cat()
+}
+```
+
+
+```{r}
+#| results: asis
+#| echo: false
+#| warning: false
+# r_file_as_code("scripts/exemplo.R")
+```

@@ -1,0 +1,16 @@
+---
+title: "Introdução ao purrr"
+author: "Beatriz Milz e R-Ladies Goiânia"
+format: html
+editor: visual
+---
+
+Boas vindas ao Meetup da R-Ladies Goiânia sobre Introdução ao purrr!
+
+Neste site, você pode encontrar:
+
+-   [Pré-requisitos](pre-requisitos.qmd): o que você precisa instalar antes da atividade;
+
+-   [Slides](slide.qmd): consulte os slides usados na atividade;
+
+-   [Links extras](links-extras.qmd) para estudar mais, após a atividade.

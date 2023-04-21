@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "slides.html#beatriz-milz",
+    "href": "slides.html#beatriz-milz",
+    "title": "Introdução ao purrr",
+    "section": "Beatriz Milz",
+    "text": "Beatriz Milz\n\nCo-organizadora R-Ladies São Paulo\nProfessora e consultora na Curso-R\nInstrutora de Tidyverse certificada pela RStudio\nContato:\n\nTwitter: @BeaMilz\nBlog: beamilz.com"
+  },
+  {
+    "objectID": "slides.html#conteúdos-que-estou-mais-envolvida",
+    "href": "slides.html#conteúdos-que-estou-mais-envolvida",
+    "title": "Introdução ao purrr",
+    "section": "Conteúdos que estou mais envolvida",
+    "text": "Conteúdos que estou mais envolvida\n\nMeu blog: https://beamilz.com\nBlog da R-Ladies São Paulo: https://rladies-sp.org/\nCurso-R:\n\nVídeos no youtube\nBlog\nCursos"
+  },
+  {
+    "objectID": "slides.html#agenda-para-hoje",
+    "href": "slides.html#agenda-para-hoje",
+    "title": "Introdução ao purrr",
+    "section": "Agenda para hoje",
+    "text": "Agenda para hoje\n\nConteúdos de R básico importantes para entender purrr\nIntrodução ao purrr\nExemplos práticos do uso do purrr"
+  },
+  {
+    "objectID": "slides.html#o-que-é-o-purrr",
+    "href": "slides.html#o-que-é-o-purrr",
+    "title": "Introdução ao purrr",
+    "section": "O que é o purrr?",
+    "text": "O que é o purrr?\n\nUm pacote de R\nUma caixa de ferramentas para programação funcional\nMuitas das funções do purrr são alternativas aos loops feito com for\nCódigo com {purrr} é mais curto e claro, comparado aos loops com for.\nSaber usar {purrr} permite que você use o pacote {furrr}: tem a mesma sintaxe, mas permite executar códigos de forma paralela\n\n\nFonte: Hadley Wickham"
+  },
+  {
+    "objectID": "slides.html#versão-do-purrr",
+    "href": "slides.html#versão-do-purrr",
+    "title": "Introdução ao purrr",
+    "section": "Versão do purrr",
+    "text": "Versão do purrr\n\nTenha a versão 1.0.0 ou superior instalada.\nPara saber a versão, utilize a função:\n\n\npackageVersion(\"purrr\")\n\n[1] '1.0.1'\n\n\n\nPara atualizar, utilize a função:\n\n\ninstall.packages(\"purrr\")"
+  },
+  {
+    "objectID": "slides.html#funções",
+    "href": "slides.html#funções",
+    "title": "Introdução ao purrr",
+    "section": "Funções",
+    "text": "Funções\n\nO pacote purrr tem muitas funções!\nMuitas funcionam de forma similar.\nVamos focar em algumas hoje :)\n\nmap()\nmap_vec()\nlist_c()\nlist_cbind(), list_rbind()\npluck()\nset_names()"
+  },
+  {
+    "objectID": "slides.html#map",
+    "href": "slides.html#map",
+    "title": "Introdução ao purrr",
+    "section": "map()",
+    "text": "map()\nTODO!"
+  },
+  {
+    "objectID": "slides.html#map_vec",
+    "href": "slides.html#map_vec",
+    "title": "Introdução ao purrr",
+    "section": "map_vec()",
+    "text": "map_vec()\n\nO tamanho do vetor de saída sempre será igual ao tamanho do vetor de entrada."
+  },
+  {
+    "objectID": "slides.html#pluck",
+    "href": "slides.html#pluck",
+    "title": "Introdução ao purrr",
+    "section": "pluck()",
+    "text": "pluck()\n\n\nFonte: Allison Horst"
+  },
+  {
+    "objectID": "slides.html#dicas-para-debug",
+    "href": "slides.html#dicas-para-debug",
+    "title": "Introdução ao purrr",
+    "section": "Dicas para debug",
+    "text": "Dicas para debug"
+  },
+  {
+    "objectID": "pre-requisitos.html",
+    "href": "pre-requisitos.html",
+    "title": "Pré-requisitos",
+    "section": "",
+    "text": "Nesta atividade, utilizaremos a Posit Cloud. Porém, para praticar posteriormente, recomendo a instalação do R e do RStudio."
+  },
+  {
+    "objectID": "pre-requisitos.html#instalações",
+    "href": "pre-requisitos.html#instalações",
+    "title": "Pré-requisitos",
+    "section": "",
+    "text": "Nesta atividade, utilizaremos a Posit Cloud. Porém, para praticar posteriormente, recomendo a instalação do R e do RStudio."
+  },
+  {
+    "objectID": "pre-requisitos.html#pacotes",
+    "href": "pre-requisitos.html#pacotes",
+    "title": "Pré-requisitos",
+    "section": "Pacotes",
+    "text": "Pacotes\nO pacote purrr faz parte do meta-pacote tidyverse. Vamos instalar também o pacote dados!\n\ninstall.packages(\"tidyverse\")\ninstall.packages(\"dados\")"
+  },
+  {
+    "objectID": "pre-requisitos.html#pré-requisitos",
+    "href": "pre-requisitos.html#pré-requisitos",
+    "title": "Pré-requisitos",
+    "section": "Pré-requisitos",
+    "text": "Pré-requisitos\nÉ interessante que as pessoas participantes tenham conhecimento básico sobre R.\nCaso seja necessário, indico o material da Curso-R e também o material da oficina de introdução ao R da R-Ladies São Paulo para estudo e revisão."
+  },
+  {
+    "objectID": "links-extras.html",
+    "href": "links-extras.html",
+    "title": "Links extras",
+    "section": "",
+    "text": "Slides da Curso-R sobre programação funcional\nCapítulo sobre programação funcional, livro Ciência de Dados em R\nVideo: Purrr: Introdução e possibilidades:\n\n\n\n\n\n\nVideo: Webinar de purrr avançado:\n\n\n\n\n\n\nVideo: Comentando o purrr 1.0.0:\n\n\n\n\n\n\n\n\n\nDocumentação do pacote purrr\nNovidades do pacote purrr: versão 1.0.0\nVideo: Hadley Wickham | {purrr} 1.0: A complete and consistent set of tools for functions and vectors"
+  },
+  {
+    "objectID": "links-extras.html#sobre-purrr",
+    "href": "links-extras.html#sobre-purrr",
+    "title": "Links extras",
+    "section": "",
+    "text": "Slides da Curso-R sobre programação funcional\nCapítulo sobre programação funcional, livro Ciência de Dados em R\nVideo: Purrr: Introdução e possibilidades:\n\n\n\n\n\n\nVideo: Webinar de purrr avançado:\n\n\n\n\n\n\nVideo: Comentando o purrr 1.0.0:\n\n\n\n\n\n\n\n\n\nDocumentação do pacote purrr\nNovidades do pacote purrr: versão 1.0.0\nVideo: Hadley Wickham | {purrr} 1.0: A complete and consistent set of tools for functions and vectors"
+  },
+  {
+    "objectID": "links-extras.html#outros-temas",
+    "href": "links-extras.html#outros-temas",
+    "title": "Links extras",
+    "section": "Outros temas",
+    "text": "Outros temas\n\nFunções e dependências - Livro Zen do R\nListas no R - Blog da Curso-R"
+  }
+]

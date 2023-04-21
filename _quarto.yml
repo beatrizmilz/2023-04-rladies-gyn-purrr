@@ -1,0 +1,54 @@
+project:
+  type: website
+  output-dir: docs  
+  preview: 
+    port: 4200
+  
+lang: pt  
+
+website:
+  page-navigation: true
+  title: "Introdução ao purrr"
+    
+  sidebar:
+    title: "Introdução ao purrr <br>"
+    background: "#FFFFFF"  
+    pinned: true
+    align: center
+    style: "docked"
+    search: true
+    collapse-level: 1    
+    tools:
+      - icon: github
+        href: https://github.com/beatrizmilz/2023-04-rladoes-gyn-purrr
+        text: "GitHub"
+    
+    contents:
+      - href: index.qmd
+        text: "Página inicial" 
+      - pre-requisitos.qmd  
+      - slide.qmd
+#      - exercicios.qmd
+      - links-extras.qmd
+
+  
+
+        
+        
+  page-footer: 
+    right: "Site criado com [Quarto](https://quarto.org/). Licença: [Creative Commons Attribution-ShareAlike (CC BY-SA)](https://creativecommons.org/licenses/by-sa/2.0/)."
+    left: "&copy; Copyright 2023, [Beatriz Milz](https://beamilz.com)"
+    background: "#562457"
+            
+
+  
+format:
+  html:
+    mainfont: "Montserrat"
+    theme: custom.scss
+    toc: true
+    code-copy: true
+    code-link: true
+    code-overflow: wrap
+
+editor: visual

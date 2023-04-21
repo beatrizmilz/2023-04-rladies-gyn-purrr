@@ -1,0 +1,25 @@
+---
+title: "Pré-requisitos"
+author: "Beatriz Milz"
+---
+
+## Instalações
+
+-   Nesta atividade, utilizaremos a Posit Cloud. Porém, para praticar posteriormente, recomendo a [instalação do R](https://livro.curso-r.com/1-1-instalacao-do-r.html) e do [RStudio](https://livro.curso-r.com/1-2-instalacao-do-rstudio.html).
+
+## Pacotes
+
+O pacote `{purrr}` faz parte do meta-pacote `{tidyverse}`. Vamos instalar também o pacote `{dados}`!
+
+```{r}
+#| eval: false
+install.packages("tidyverse")
+install.packages("dados")
+```
+
+## Pré-requisitos
+
+É interessante que as pessoas participantes tenham **conhecimento básico sobre R**.
+
+Caso seja necessário, indico o [material da Curso-R](https://livro.curso-r.com/3-r-base.html) e também o [material da oficina de introdução ao R da R-Ladies São Paulo](https://r-ladies-sao-paulo.github.io/2022-11-oficina-introducao-R/slides.html) para estudo e revisão.
+
