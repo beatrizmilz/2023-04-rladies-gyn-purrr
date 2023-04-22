@@ -1,0 +1,54 @@
+---
+title: "Barragens de mineração em `r params$estado`"
+author: "Bea"
+date: "2023-04-29"
+output: html_document
+params:
+  estado: "SP"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE)
+```
+
+```{r}
+#| eval: false
+link_sigbm <-  "https://app.anm.gov.br/SIGBM/Publico/ClassificacaoNacionalDaBarragem/ExportarExcel"
+
+httr::POST(link_sigbm,
+           httr::write_disk("sigbm.xlsx"))
+```
+
+```{r}
+library(tidyverse)
+```
+
+```{r}
+barragens <- readxl::read_excel("sigbm.xlsx", skip = 3) |> 
+  janitor::clean_names()
+```
+
+```{r}
+barragens_filtradas <- barragens |> 
+  filter(uf == params$estado)
+```
+
+A UF `r params$estado` apresenta `r nrow(barragens_filtradas)` barragens de mineração cadastradas no SIGBM.
+
+## Barragens cadastradas
+
+```{r}
+barragens_filtradas |> 
+  select(nome_da_barragem, nome_do_empreendedor) |> 
+  reactable::reactable()
+```
+
+## Barragens segundo DPA
+
+```{r}
+barragens_filtradas |> 
+  count(dano_potencial_associado) |> 
+  ggplot() +
+  geom_col(aes(x = dano_potencial_associado, y = n), fill = "lightblue") +
+  theme_minimal()
+```

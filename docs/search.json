@@ -96,5 +96,26 @@
     "title": "Links extras",
     "section": "Sobre Purrr",
     "text": "Sobre Purrr\n\nPortuguês\n\nSlides da Curso-R sobre programação funcional\nCapítulo sobre programação funcional, livro Ciência de Dados em R\nVideo: Purrr: Introdução e possibilidades:\n\n\n\n\n\n\nVideo: Webinar de purrr avançado:\n\n\n\n\n\n\nVideo: Comentando o purrr 1.0.0:\n\n\n\n\n\n\n\nInglês\n\nDocumentação do pacote purrr\nNovidades do pacote purrr: versão 1.0.0\nVideo: Hadley Wickham | {purrr} 1.0: A complete and consistent set of tools for functions and vectors"
+  },
+  {
+    "objectID": "praticas/05-relatorios-com-parametros/relatorio-exemplo.html",
+    "href": "praticas/05-relatorios-com-parametros/relatorio-exemplo.html",
+    "title": "Barragens de mineração em SP",
+    "section": "",
+    "text": "A UF SP apresenta 68 barragens de mineração cadastradas no SIGBM."
+  },
+  {
+    "objectID": "praticas/05-relatorios-com-parametros/relatorio-exemplo.html#barragens-cadastradas",
+    "href": "praticas/05-relatorios-com-parametros/relatorio-exemplo.html#barragens-cadastradas",
+    "title": "Barragens de mineração em SP",
+    "section": "Barragens cadastradas",
+    "text": "Barragens cadastradas"
+  },
+  {
+    "objectID": "praticas/05-relatorios-com-parametros/relatorio-exemplo.html#barragens-segundo-dpa",
+    "href": "praticas/05-relatorios-com-parametros/relatorio-exemplo.html#barragens-segundo-dpa",
+    "title": "Barragens de mineração em SP",
+    "section": "Barragens segundo DPA",
+    "text": "Barragens segundo DPA"
   }
 ]
