@@ -6,7 +6,7 @@
 # a função class() permite descobrir a classe
 # alguns exemplos: 
 
-# textos
+# textos: sempre tem aspas
 class("Beatriz")
 
 # números
@@ -54,6 +54,15 @@ str(vetor_exemplo)
 # sempre 1 classe de variável
 
 class(vetor_exemplo)
+
+# isso é importante! 
+# e se criar um vetor com elementos de classes diferentes?
+x <- c(10, 20, 30, "40")
+class(x) # acontece a coerção! ele muda os elementos para a classe mais geral.
+
+# logico > numerico > texto
+
+
 
 # também é possível criar um vetor com uma sequência usando :
 
@@ -128,7 +137,7 @@ lista_irmaos[[2]][[1]]
 lista_irmaos[[2]][[2]]
 
 
-## Exercícios
+## Exercícios: 
 
 # https://forms.gle/BCedfboc66fVY2NZA
 
@@ -196,6 +205,8 @@ sqrt(9)
 # nome_da_funcao <- function(nome_do_argumento1, nome_do_argumento2) {
 #   corpo da função: o que será executado
 # }
+# Por padrão, a função retornará sempre a última
+# linha de código que existir dentro dela.
 
 # Exemplo 1
 contador_de_dias <- function(data){
@@ -236,8 +247,12 @@ contar_diferenca_de_datas("2023-10-14")
 contar_diferenca_de_datas(data_inicial = "2023-04-21", 
                           data_final = "2023-10-14")
 
-# Exemplo 3
+
 # Uma estratégia para criar funções é escrever um trecho de código que funciona
 # e adaptar para uma função...
+
+
+# EXERCÍCIOS - FUNÇÕES BÁSICO: 02-exercicios-funcoes.R
+rstudioapi::documentOpen("scripts/02-exercicios-funcoes.R")
 
 

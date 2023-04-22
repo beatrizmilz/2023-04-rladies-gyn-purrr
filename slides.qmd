@@ -15,39 +15,37 @@ incremental: false
 -   Professora e consultora na [Curso-R](https://curso-r.com/)
 
 -   Instrutora de Tidyverse certificada pela RStudio
-    
-- Contato:
-   - Twitter: [\@BeaMilz](https://twitter.com/BeaMilz)
-   - Blog: [beamilz.com](https://beamilz.com)
 
+-   Contato:
 
+    -   Twitter: [\@BeaMilz](https://twitter.com/BeaMilz)
+    -   Blog: [beamilz.com](https://beamilz.com)
 
 <img src="img/octocat-1656339210373.png" style="right: -10px;height: 80%;top: -10px;position: absolute;"/>
 
-
 ## Conteúdos que estou mais envolvida
 
-- Meu blog: <https://beamilz.com>
+-   Meu blog: <https://beamilz.com>
 
-- Blog da R-Ladies São Paulo: <https://rladies-sp.org/>
+-   Blog da R-Ladies São Paulo: <https://rladies-sp.org/>
 
-- Curso-R:
-  - Vídeos no youtube
-  - Blog
-  - Cursos
-  
+-   Curso-R:
+
+    -   Vídeos no youtube
+    -   Blog
+    -   Cursos
+
 ## Agenda para hoje
 
-- Conteúdos de R básico importantes para entender `purrr`
+-   Conteúdos de R básico importantes para entender `purrr`
 
-- Introdução ao `purrr`
+-   Introdução ao `purrr`
 
-- Exemplos práticos do uso do `purrr`
+-   Exemplos práticos do uso do `purrr`
 
 # Conteúdos de R básico importantes para entender `purrr`
-Vamos ao script `01-r-base.R`!
 
-
+Vamos ao script `01-r-base-revisao.R`!
 
 # Introdução ao purrr
 
@@ -59,28 +57,26 @@ Vamos ao script `01-r-base.R`!
 
 -   Muitas das funções do purrr são alternativas aos loops feito com `for`
 
-- Código com `{purrr}` é mais curto e claro, comparado aos loops com `for`.
+-   Código com `{purrr}` é mais curto e claro, comparado aos loops com `for`.
 
 -   Saber usar `{purrr}` permite que você use o pacote `{furrr}`: tem a mesma sintaxe, mas permite executar códigos de forma paralela
 
 ::: footer
-
 Fonte: [Hadley Wickham](https://www.youtube.com/watch?v=EGAs7zuRutY)
-
 :::
 
 ## Versão do purrr
 
-- Tenha a versão 1.0.0 ou superior instalada.
+-   Tenha a versão 1.0.0 ou superior instalada.
 
-- Para saber a versão, utilize a função:
+-   Para saber a versão, utilize a função:
 
 ```{r}
 #| echo: true
 packageVersion("purrr")
 ```
 
-- Para atualizar, utilize a função:
+-   Para atualizar, utilize a função:
 
 ```{r}
 #| eval: false
@@ -88,44 +84,40 @@ packageVersion("purrr")
 install.packages("purrr")
 ```
 
-
 ## Funções
 
-- O pacote purrr tem muitas funções!
+-   O pacote purrr tem muitas funções!
 
-- Muitas funcionam de forma similar.
+-   Muitas funcionam de forma similar.
 
-- Vamos focar em algumas hoje :)
+-   Vamos focar em algumas hoje :)
 
-  - map()
+    -   map()
 
-  - map_vec()
+    -   map_vec()
 
-  - list_c()
+    -   list_c()
 
-  - list_cbind(), list_rbind()
+    -   list_cbind(), list_rbind()
 
-  - pluck()
-  
-  - set_names()
+    -   pluck()
+
+    -   set_names()
 
 ## map()
 
 TODO!
 
-
 ## map_vec()
 
-- O tamanho do vetor de saída sempre será igual ao tamanho do vetor de entrada.
+-   O tamanho do vetor de saída sempre será igual ao tamanho do vetor de entrada.
 
 ## pluck()
 
 ![](https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/fee602ac-0e13-4313-ac4c-9a93d8d74eab_rw_3840.png?h=caf16fae25e86a2157dafb38ef3a8ec4){fig-align="center" width="70%"}
 
 ::: footer
-
 Fonte: [Allison Horst](https://allisonhorst.com/data-science-art)
-
 :::
 
 ## Dicas para debug
@@ -134,9 +126,7 @@ Fonte: [Allison Horst](https://allisonhorst.com/data-science-art)
 
 TODO!
 
-
-- importação de várias bases
-- Group split
-- Relatórios com parâmetros
-- Web Scraping
-
+-   importação de várias bases
+-   Group split
+-   Relatórios com parâmetros
+-   Web Scraping

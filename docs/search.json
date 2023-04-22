@@ -98,24 +98,31 @@
     "text": "Pré-requisitos\nÉ interessante que as pessoas participantes tenham conhecimento básico sobre R.\nCaso seja necessário, indico o material da Curso-R e também o material da oficina de introdução ao R da R-Ladies São Paulo para estudo e revisão."
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Introdução ao purrr",
+    "section": "",
+    "text": "Boas vindas ao Meetup da R-Ladies Goiânia sobre Introdução ao purrr!\nNeste site, você pode encontrar:\n\nPré-requisitos: o que você precisa instalar antes da atividade;\nSlides: consulte os slides usados na atividade;\nLinks extras para estudar mais, após a atividade."
+  },
+  {
     "objectID": "links-extras.html",
     "href": "links-extras.html",
     "title": "Links extras",
     "section": "",
-    "text": "Slides da Curso-R sobre programação funcional\nCapítulo sobre programação funcional, livro Ciência de Dados em R\nVideo: Purrr: Introdução e possibilidades:\n\n\n\n\n\n\nVideo: Webinar de purrr avançado:\n\n\n\n\n\n\nVideo: Comentando o purrr 1.0.0:\n\n\n\n\n\n\n\n\n\nDocumentação do pacote purrr\nNovidades do pacote purrr: versão 1.0.0\nVideo: Hadley Wickham | {purrr} 1.0: A complete and consistent set of tools for functions and vectors"
+    "text": "Mais sobre funções - Livro Ciência de Dados com R\nFunções e dependências - Livro Zen do R\nListas no R - Blog da Curso-R"
+  },
+  {
+    "objectID": "links-extras.html#revisão-de-pré-requisitos",
+    "href": "links-extras.html#revisão-de-pré-requisitos",
+    "title": "Links extras",
+    "section": "",
+    "text": "Mais sobre funções - Livro Ciência de Dados com R\nFunções e dependências - Livro Zen do R\nListas no R - Blog da Curso-R"
   },
   {
     "objectID": "links-extras.html#sobre-purrr",
     "href": "links-extras.html#sobre-purrr",
     "title": "Links extras",
-    "section": "",
-    "text": "Slides da Curso-R sobre programação funcional\nCapítulo sobre programação funcional, livro Ciência de Dados em R\nVideo: Purrr: Introdução e possibilidades:\n\n\n\n\n\n\nVideo: Webinar de purrr avançado:\n\n\n\n\n\n\nVideo: Comentando o purrr 1.0.0:\n\n\n\n\n\n\n\n\n\nDocumentação do pacote purrr\nNovidades do pacote purrr: versão 1.0.0\nVideo: Hadley Wickham | {purrr} 1.0: A complete and consistent set of tools for functions and vectors"
-  },
-  {
-    "objectID": "links-extras.html#outros-temas",
-    "href": "links-extras.html#outros-temas",
-    "title": "Links extras",
-    "section": "Outros temas",
-    "text": "Outros temas\n\nFunções e dependências - Livro Zen do R\nListas no R - Blog da Curso-R"
+    "section": "Sobre Purrr",
+    "text": "Sobre Purrr\n\nPortuguês\n\nSlides da Curso-R sobre programação funcional\nCapítulo sobre programação funcional, livro Ciência de Dados em R\nVideo: Purrr: Introdução e possibilidades:\n\n\n\n\n\n\nVideo: Webinar de purrr avançado:\n\n\n\n\n\n\nVideo: Comentando o purrr 1.0.0:\n\n\n\n\n\n\n\nInglês\n\nDocumentação do pacote purrr\nNovidades do pacote purrr: versão 1.0.0\nVideo: Hadley Wickham | {purrr} 1.0: A complete and consistent set of tools for functions and vectors"
   }
 ]

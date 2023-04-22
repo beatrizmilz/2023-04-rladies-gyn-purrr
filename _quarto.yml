@@ -1,15 +1,18 @@
 project:
   type: website
+  resources: 
+    - "scripts/*"  
   output-dir: docs  
   preview: 
     port: 4200
+    
+    
   
 lang: pt  
 
 website:
   page-navigation: true
   title: "Introdução ao purrr"
-    
   sidebar:
     title: "Introdução ao purrr <br>"
     background: "#FFFFFF"  

@@ -2,45 +2,67 @@
 title: "Links extras"
 ---
 
+
+## Revisão de pré-requisitos
+
+- [Mais sobre funções - Livro Ciência de Dados com R](https://livro.curso-r.com/3-11-maisFuncoes.html)
+
+-   [Funções e dependências - Livro Zen do R](https://curso-r.github.io/zen-do-r/funcoes-deps.html)
+
+
+-   [Listas no R - Blog da Curso-R](https://blog.curso-r.com/posts/2023-04-14-indexacao/)
+
+
 ## Sobre Purrr
+
 ### Português
 
-- [Slides da Curso-R sobre programação funcional](https://curso-r.github.io/202303-r4ds-2/materiais/slides/05_funcional.html)
+-   [Slides da Curso-R sobre programação funcional](https://curso-r.github.io/202303-r4ds-2/materiais/slides/05_funcional.html)
 
-- [Capítulo sobre programação funcional, livro Ciência de Dados em R](https://livro.curso-r.com/10-funcionais.html)
+-   [Capítulo sobre programação funcional, livro Ciência de Dados em R](https://livro.curso-r.com/10-funcionais.html)
 
+-   Video: [Purrr: Introdução e possibilidades](https://www.youtube.com/live/eHbFkEyN3OU?feature=share):
 
-- Video: [Purrr: Introdução e possibilidades](https://www.youtube.com/live/eHbFkEyN3OU?feature=share):
+<center>
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/eHbFkEyN3OU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eHbFkEyN3OU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 
+</iframe>
 
-- Video: [Webinar de purrr avançado](https://www.youtube.com/watch?v=vb1lD9_AFcU):
+</center>
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/vb1lD9_AFcU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+-   Video: [Webinar de purrr avançado](https://www.youtube.com/watch?v=vb1lD9_AFcU):
 
+<center>
 
-- Video: [Comentando o purrr 1.0.0](https://www.youtube.com/watch?v=wsN-w6dZmXY):
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vb1lD9_AFcU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/wsN-w6dZmXY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+</iframe>
 
+</center>
 
+-   Video: [Comentando o purrr 1.0.0](https://www.youtube.com/watch?v=wsN-w6dZmXY):
 
+<center>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wsN-w6dZmXY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+</iframe>
+
+</center>
 
 ### Inglês
 
-- [Documentação do pacote purrr](https://purrr.tidyverse.org/index.html)
+-   [Documentação do pacote purrr](https://purrr.tidyverse.org/index.html)
 
-- [Novidades do pacote purrr: versão 1.0.0](https://www.tidyverse.org/blog/2022/12/purrr-1-0-0/)
+-   [Novidades do pacote purrr: versão 1.0.0](https://www.tidyverse.org/blog/2022/12/purrr-1-0-0/)
 
-- Video: [Hadley Wickham | {purrr} 1.0: A complete and consistent set of tools for functions and vectors ](https://www.youtube.com/watch?v=EGAs7zuRutY)
+-   Video: [Hadley Wickham \| {purrr} 1.0: A complete and consistent set of tools for functions and vectors](https://www.youtube.com/watch?v=EGAs7zuRutY)
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/EGAs7zuRutY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+<center>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EGAs7zuRutY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 
-## Outros temas
+</iframe>
 
-- [Funções e dependências - Livro Zen do R](https://curso-r.github.io/zen-do-r/funcoes-deps.html)
-
-- [Listas no R - Blog da Curso-R](https://blog.curso-r.com/posts/2023-04-14-indexacao/)
+</center>
