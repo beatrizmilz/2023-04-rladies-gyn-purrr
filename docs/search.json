@@ -60,7 +60,7 @@
     "href": "pre-requisitos.html#pacotes",
     "title": "Pré-requisitos",
     "section": "Pacotes",
-    "text": "Pacotes\nO pacote purrr faz parte do meta-pacote tidyverse. Vamos instalar também o pacote dados!\n\ninstall.packages(\"tidyverse\")\ninstall.packages(\"dados\")\n\nVamos usar outros pacotes nas práticas também:\n\ninstall.packages(\"fs\")\ninstall.packages(\"writexl\")\ninstall.packages(\"readxl\")"
+    "text": "Pacotes\nO pacote purrr faz parte do meta-pacote tidyverse. Vamos instalar também o pacote dados!\n\ninstall.packages(\"tidyverse\")\ninstall.packages(\"dados\")\n\nVamos usar outros pacotes nas práticas também:\n\ninstall.packages(\"fs\")\ninstall.packages(\"writexl\")\ninstall.packages(\"readxl\")\ninstall.packages(\"janitor\")\ninstall.packages(\"xml2\")"
   },
   {
     "objectID": "pre-requisitos.html#pré-requisitos",

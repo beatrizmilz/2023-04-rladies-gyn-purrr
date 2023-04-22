@@ -24,6 +24,8 @@ Vamos usar outros pacotes nas práticas também:
 install.packages("fs")
 install.packages("writexl")
 install.packages("readxl")
+install.packages("janitor")
+install.packages("xml2")
 
 ```
 
