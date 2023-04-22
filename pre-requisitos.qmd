@@ -17,9 +17,18 @@ install.packages("tidyverse")
 install.packages("dados")
 ```
 
+Vamos usar outros pacotes nas práticas também:
+
+```{r}
+#| eval: false
+install.packages("fs")
+install.packages("writexl")
+install.packages("readxl")
+
+```
+
 ## Pré-requisitos
 
 É interessante que as pessoas participantes tenham **conhecimento básico sobre R**.
 
 Caso seja necessário, indico o [material da Curso-R](https://livro.curso-r.com/3-r-base.html) e também o [material da oficina de introdução ao R da R-Ladies São Paulo](https://r-ladies-sao-paulo.github.io/2022-11-oficina-introducao-R/slides.html) para estudo e revisão.
-

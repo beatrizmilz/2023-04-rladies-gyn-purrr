@@ -39,35 +39,7 @@
     "href": "slides.html#funções",
     "title": "Introdução ao purrr",
     "section": "Funções",
-    "text": "Funções\n\nO pacote purrr tem muitas funções!\nMuitas funcionam de forma similar.\nVamos focar em algumas hoje :)\n\nmap()\nmap_vec()\nlist_c()\nlist_cbind(), list_rbind()\npluck()\nset_names()"
-  },
-  {
-    "objectID": "slides.html#map",
-    "href": "slides.html#map",
-    "title": "Introdução ao purrr",
-    "section": "map()",
-    "text": "map()\nTODO!"
-  },
-  {
-    "objectID": "slides.html#map_vec",
-    "href": "slides.html#map_vec",
-    "title": "Introdução ao purrr",
-    "section": "map_vec()",
-    "text": "map_vec()\n\nO tamanho do vetor de saída sempre será igual ao tamanho do vetor de entrada."
-  },
-  {
-    "objectID": "slides.html#pluck",
-    "href": "slides.html#pluck",
-    "title": "Introdução ao purrr",
-    "section": "pluck()",
-    "text": "pluck()\n\n\nFonte: Allison Horst"
-  },
-  {
-    "objectID": "slides.html#dicas-para-debug",
-    "href": "slides.html#dicas-para-debug",
-    "title": "Introdução ao purrr",
-    "section": "Dicas para debug",
-    "text": "Dicas para debug"
+    "text": "Funções\n\nO pacote purrr tem muitas funções!\nMuitas funcionam de forma similar.\nVamos focar em algumas hoje :)\n\nmap()\nmap_vec()\nlist_c()\nlist_rbind()\npluck()\nset_names()\n\nDicas para debug"
   },
   {
     "objectID": "pre-requisitos.html",
@@ -88,7 +60,7 @@
     "href": "pre-requisitos.html#pacotes",
     "title": "Pré-requisitos",
     "section": "Pacotes",
-    "text": "Pacotes\nO pacote purrr faz parte do meta-pacote tidyverse. Vamos instalar também o pacote dados!\n\ninstall.packages(\"tidyverse\")\ninstall.packages(\"dados\")"
+    "text": "Pacotes\nO pacote purrr faz parte do meta-pacote tidyverse. Vamos instalar também o pacote dados!\n\ninstall.packages(\"tidyverse\")\ninstall.packages(\"dados\")\n\nVamos usar outros pacotes nas práticas também:\n\ninstall.packages(\"fs\")\ninstall.packages(\"writexl\")\ninstall.packages(\"readxl\")"
   },
   {
     "objectID": "pre-requisitos.html#pré-requisitos",
