@@ -95,14 +95,17 @@ list_c()
 # então podemos usar map() + list_c(), ou map_vec()
 
 
-## barras de progresso -----
+## barras de progresso -------------------------------------
 # podemos usar uma barra de progresso,
 # usando o argumento .progress = TRUE:
 
 map(rep(1, 10), Sys.sleep, .progress = TRUE)
 
+# é algo muito legal, principalmente quando pode demorar um pouco para
+# executar o código!
 
-## funções ----
+
+## funções ---------------------------------------------------
 # podemos usar o map com funções criadas por nós!
 
 escrever_elogio <- function(nome){
@@ -116,7 +119,7 @@ escrever_elogio("Bia")
 
 map(c("Bia", "Gabi", "Dani"), escrever_elogio) 
 
-## funções anônimas ---
+## funções anônimas --------------------------------------------
 # é uma forma de usar uma função sem ter que criar ela
 
 # somar 1 em cada elemento
@@ -138,7 +141,19 @@ map(1:10, \(x) x + 1)
 
 ### Exercícios: ------------------------------------
 
-# TODO
+# 1) a) Crie uma função que recebe um texto contendo uma data no formato
+# que usamos no Brasil (ex: "29/04/2023"), e retorna com classe data.
+# Dica: a função readr::parse_date() é útil pra isso!
+# veja a documentação da função, e o argumento format =
+
+# 1) b) Aplique a funcao no vetor a seguir!
+
+datas <- c("15/02/1993", "21/03/1998", "01/02/2000", "01/04/2012", "01/04/2012")
+
+
+# 1) c) Faça o mesmo, agora usando uma função anônima.
+
+
 
 
 # Funções auxiliares ---------------
@@ -190,6 +205,8 @@ pluck(grafico, "labels", "x")
 
 ## set_names() -------
 
+# E se o vetor/lista não for nomeado?
+
 # A função set_names() do pacote purrr é usada para adicionar
 # ou alterar os nomes de uma lista ou vetor em R. Ela permite 
 # definir ou alterar os nomes dos elementos usando um vetor de 
@@ -205,11 +222,4 @@ pluck(grafico, "labels", "x")
 # elementos com a função set_names
 vec <- c(a = 1, b = 2, c = 3)
 set_names(vec, c("primeiro", "segundo", "terceiro"))
-
-
-## possibly() ------
-# TODO
-
-
-
 

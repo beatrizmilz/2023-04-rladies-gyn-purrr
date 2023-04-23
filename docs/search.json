@@ -39,7 +39,7 @@
     "href": "slides.html#funções",
     "title": "Introdução ao purrr",
     "section": "Funções",
-    "text": "Funções\n\nO pacote purrr tem muitas funções!\nMuitas funcionam de forma similar.\nVamos focar em algumas hoje :)\n\nmap()\nmap_vec()\nlist_c()\nlist_rbind()\npluck()\nset_names()\n\nDicas para debug"
+    "text": "Funções\n\nO pacote purrr tem muitas funções!\nMuitas funcionam de forma similar.\nVamos focar em algumas hoje :)\n\nmap()\nmap_vec()\nlist_c()\npluck()\nset_names()\n\nDicas para debug"
   },
   {
     "objectID": "pre-requisitos.html",
