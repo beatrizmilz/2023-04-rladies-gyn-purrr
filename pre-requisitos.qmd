@@ -26,6 +26,8 @@ install.packages("writexl")
 install.packages("readxl")
 install.packages("janitor")
 install.packages("xml2")
+install.packages("quarto")
+install.packages("pagedown")
 
 ```
 

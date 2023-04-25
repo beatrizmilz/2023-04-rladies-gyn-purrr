@@ -9,8 +9,21 @@ Boas vindas ao Meetup da R-Ladies Goiânia sobre Introdução ao purrr!
 
 Neste site, você pode encontrar:
 
+-   [Inscrições](https://www.sympla.com.br/evento-online/introducao-ao-pacote-purrr/1871113): você pode se inscrever gratuitamente, ou também contribuir voluntariamente com um valor entre R\$5 à R\$50 para doação para o projeto [CasaNem](https://www.instagram.com/casanem_/).
+
+```{=html}
+<!-- -->
+```
 -   [Pré-requisitos](pre-requisitos.qmd): o que você precisa instalar antes da atividade;
 
 -   [Slides](slide.qmd): consulte os slides usados na atividade;
 
 -   [Links extras](links-extras.qmd) para estudar mais, após a atividade.
+
+## [R-Ladies Goiânia](https://www.rladiesgyn.com/)
+
+A cada palestra/curso oferecido pela R-Ladies Goiânia, optamos por direcionar as doações a instituições que possuem alguma iniciativa relacionada a gêneros de minorias ou causas animais.
+
+### CasaNem
+
+O [projeto **CasaNem**](https://www.instagram.com/casanem_/)é um centro de acolhimento da cidade do Rio de Janeiro que abriga pessoas LGBTQI+ em situação de vulnerabilidade social, em sua maioria pessoas transexuais e travestis, e que desenvolve programas e atividades em diversas vertentes com atividades focadas na autonomia e cultura dos seus moradores, além de realizar atendimentos e oferecer cursos e oficinas. Em 2020, a CasaNem atingia direta e indiretamente mais de 100 pessoas.

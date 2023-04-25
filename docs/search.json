@@ -60,7 +60,7 @@
     "href": "pre-requisitos.html#pacotes",
     "title": "Pré-requisitos",
     "section": "Pacotes",
-    "text": "Pacotes\nO pacote purrr faz parte do meta-pacote tidyverse. Vamos instalar também o pacote dados!\n\ninstall.packages(\"tidyverse\")\ninstall.packages(\"dados\")\n\nVamos usar outros pacotes nas práticas também:\n\ninstall.packages(\"fs\")\ninstall.packages(\"writexl\")\ninstall.packages(\"readxl\")\ninstall.packages(\"janitor\")\ninstall.packages(\"xml2\")"
+    "text": "Pacotes\nO pacote purrr faz parte do meta-pacote tidyverse. Vamos instalar também o pacote dados!\n\ninstall.packages(\"tidyverse\")\ninstall.packages(\"dados\")\n\nVamos usar outros pacotes nas práticas também:\n\ninstall.packages(\"fs\")\ninstall.packages(\"writexl\")\ninstall.packages(\"readxl\")\ninstall.packages(\"janitor\")\ninstall.packages(\"xml2\")\ninstall.packages(\"quarto\")\ninstall.packages(\"pagedown\")"
   },
   {
     "objectID": "pre-requisitos.html#pré-requisitos",
@@ -74,7 +74,7 @@
     "href": "index.html",
     "title": "Introdução ao purrr",
     "section": "",
-    "text": "Boas vindas ao Meetup da R-Ladies Goiânia sobre Introdução ao purrr!\nNeste site, você pode encontrar:\n\nPré-requisitos: o que você precisa instalar antes da atividade;\nSlides: consulte os slides usados na atividade;\nLinks extras para estudar mais, após a atividade."
+    "text": "Boas vindas ao Meetup da R-Ladies Goiânia sobre Introdução ao purrr!\nNeste site, você pode encontrar:"
   },
   {
     "objectID": "links-extras.html",
@@ -117,5 +117,12 @@
     "title": "Barragens de mineração em SP",
     "section": "Barragens segundo DPA",
     "text": "Barragens segundo DPA"
+  },
+  {
+    "objectID": "index.html#r-ladies-goiânia",
+    "href": "index.html#r-ladies-goiânia",
+    "title": "Introdução ao purrr",
+    "section": "R-Ladies Goiânia",
+    "text": "R-Ladies Goiânia\nA cada palestra/curso oferecido pela R-Ladies Goiânia, optamos por direcionar as doações a instituições que possuem alguma iniciativa relacionada a gêneros de minorias ou causas animais.\n\nCasaNem\nO projeto CasaNemé um centro de acolhimento da cidade do Rio de Janeiro que abriga pessoas LGBTQI+ em situação de vulnerabilidade social, em sua maioria pessoas transexuais e travestis, e que desenvolve programas e atividades em diversas vertentes com atividades focadas na autonomia e cultura dos seus moradores, além de realizar atendimentos e oferecer cursos e oficinas. Em 2020, a CasaNem atingia direta e indiretamente mais de 100 pessoas."
   }
 ]
