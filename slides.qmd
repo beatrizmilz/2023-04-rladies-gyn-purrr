@@ -43,6 +43,20 @@ incremental: false
 
 -   Exemplos práticos do uso do `purrr`
 
+## Exemplos práticos do uso do `purrr`
+
+-   Como importar vários arquivos (ex. `.csv`, `.xlsx`, etc) de uma vez!
+
+-   Como exportar vários arquivos (ex. `.csv`, `.xlsx`, etc) de uma vez!
+
+- Como o purrr pode ser útil em  `Web Scraping`
+
+- Como executar um código para cada linha de uma base de dados
+
+- Gerando vários relatórios de uma vez: relatórios em **Quarto** com parâmetros.
+
+
+
 # Conteúdos de R básico importantes para entender `purrr`
 
 Vamos ao script [`01-r-base-revisao.R`](https://beatrizmilz.github.io/2023-04-rladies-gyn-purrr/scripts/01-r-base-revisao.R)!

@@ -21,6 +21,13 @@
     "text": "Agenda para hoje\n\nConteúdos de R básico importantes para entender purrr\nIntrodução ao purrr\nExemplos práticos do uso do purrr"
   },
   {
+    "objectID": "slides.html#exemplos-práticos-do-uso-do-purrr",
+    "href": "slides.html#exemplos-práticos-do-uso-do-purrr",
+    "title": "Introdução ao purrr",
+    "section": "Exemplos práticos do uso do purrr",
+    "text": "Exemplos práticos do uso do purrr\n\nComo importar vários arquivos (ex. .csv, .xlsx, etc) de uma vez!\nComo exportar vários arquivos (ex. .csv, .xlsx, etc) de uma vez!\nComo o purrr pode ser útil em Web Scraping\nComo executar um código para cada linha de uma base de dados\nGerando vários relatórios de uma vez: relatórios em Quarto com parâmetros."
+  },
+  {
     "objectID": "slides.html#o-que-é-o-purrr",
     "href": "slides.html#o-que-é-o-purrr",
     "title": "Introdução ao purrr",
