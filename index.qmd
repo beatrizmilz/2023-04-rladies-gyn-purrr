@@ -26,4 +26,4 @@ A cada palestra/curso oferecido pela R-Ladies Goiânia, optamos por direcionar a
 
 ### CasaNem
 
-O [projeto **CasaNem**](https://www.instagram.com/casanem_/)é um centro de acolhimento da cidade do Rio de Janeiro que abriga pessoas LGBTQI+ em situação de vulnerabilidade social, em sua maioria pessoas transexuais e travestis, e que desenvolve programas e atividades em diversas vertentes com atividades focadas na autonomia e cultura dos seus moradores, além de realizar atendimentos e oferecer cursos e oficinas. Em 2020, a CasaNem atingia direta e indiretamente mais de 100 pessoas.
+O [projeto **CasaNem**](https://www.instagram.com/casanem_/)  é um centro de acolhimento da cidade do Rio de Janeiro que abriga pessoas LGBTQI+ em situação de vulnerabilidade social, em sua maioria pessoas transexuais e travestis, e que desenvolve programas e atividades em diversas vertentes com atividades focadas na autonomia e cultura dos seus moradores, além de realizar atendimentos e oferecer cursos e oficinas. Em 2020, a CasaNem atingia direta e indiretamente mais de 100 pessoas.

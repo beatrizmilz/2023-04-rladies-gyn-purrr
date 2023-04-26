@@ -33,6 +33,11 @@ website:
       - slide.qmd
 #      - exercicios.qmd
       - links-extras.qmd
+      - text: "----"
+      - href: "https://www.rladiesgyn.com/doa%C3%A7%C3%B5es"
+        text: "Organização: R-Ladies Goiânia" 
+      - href: "https://www.instagram.com/casanem_/"
+        text: "Apoie a instituição: CasaNem" 
 
   
 
