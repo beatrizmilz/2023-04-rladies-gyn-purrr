@@ -31,9 +31,16 @@ incremental: false
 
 -   Curso-R:
 
-    -   Vídeos no youtube
-    -   Blog
-    -   Cursos
+    -   [Vídeos no youtube](https://www.youtube.com/@CursoR6)
+    -   [Blog](https://blog.curso-r.com/)
+    -   [Cursos](https://loja.curso-r.com/)
+    
+## Temas favoritos em R
+
+- Automatizar tarefas
+
+- Relatórios reprodutíveis
+
 
 ## Agenda para hoje
 
@@ -43,19 +50,20 @@ incremental: false
 
 -   Exemplos práticos do uso do `purrr`
 
+
+- Vamos usar a Posit Cloud: <https://posit.cloud/content/5890300>
+
 ## Exemplos práticos do uso do `purrr`
 
 -   Como importar vários arquivos (ex. `.csv`, `.xlsx`, etc) de uma vez!
 
 -   Como exportar vários arquivos (ex. `.csv`, `.xlsx`, etc) de uma vez!
 
-- Como o purrr pode ser útil em  `Web Scraping`
+-   Como o purrr pode ser útil em `Web Scraping`
 
-- Como executar um código para cada linha de uma base de dados
+-   Como executar um código para cada linha de uma base de dados
 
-- Gerando vários relatórios de uma vez: relatórios em **Quarto** com parâmetros.
-
-
+-   Gerando vários relatórios de uma vez: relatórios em **Quarto** com parâmetros.
 
 # Conteúdos de R básico importantes para entender `purrr`
 
@@ -125,3 +133,10 @@ Vamos ao script [`03-purrr.R`](https://beatrizmilz.github.io/2023-04-rladies-gyn
 # Exemplos práticos do uso do `purrr`
 
 Vamos ao script [`04-exemplos.R`](https://beatrizmilz.github.io/2023-04-rladies-gyn-purrr/scripts/04-exemplos.R)!
+
+
+# Obrigada!
+
+- Meu contato está nos slides iniciais
+
+- Não se esqueça de conferir a página de [links extras](https://beatrizmilz.github.io/2023-04-rladies-gyn-purrr/links-extras.html)!

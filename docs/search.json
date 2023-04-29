@@ -14,11 +14,18 @@
     "text": "Conteúdos que estou mais envolvida\n\nMeu blog: https://beamilz.com\nBlog da R-Ladies São Paulo: https://rladies-sp.org/\nCurso-R:\n\nVídeos no youtube\nBlog\nCursos"
   },
   {
+    "objectID": "slides.html#temas-favoritos-em-r",
+    "href": "slides.html#temas-favoritos-em-r",
+    "title": "Introdução ao purrr",
+    "section": "Temas favoritos em R",
+    "text": "Temas favoritos em R\n\nAutomatizar tarefas\nRelatórios reprodutíveis"
+  },
+  {
     "objectID": "slides.html#agenda-para-hoje",
     "href": "slides.html#agenda-para-hoje",
     "title": "Introdução ao purrr",
     "section": "Agenda para hoje",
-    "text": "Agenda para hoje\n\nConteúdos de R básico importantes para entender purrr\nIntrodução ao purrr\nExemplos práticos do uso do purrr"
+    "text": "Agenda para hoje\n\nConteúdos de R básico importantes para entender purrr\nIntrodução ao purrr\nExemplos práticos do uso do purrr\nVamos usar a Posit Cloud: https://posit.cloud/content/5890300"
   },
   {
     "objectID": "slides.html#exemplos-práticos-do-uso-do-purrr",
@@ -116,20 +123,20 @@
     "href": "praticas/05-relatorios-com-parametros/relatorio-exemplo.html",
     "title": "Barragens de mineração em SP",
     "section": "",
-    "text": "A UF SP apresenta 68 barragens de mineração cadastradas no SIGBM."
+    "text": "O estado de São Paulo, localizado na região Sudeste do Brasil, conta com 68 barragens cadastradas no SIGBM."
   },
   {
-    "objectID": "praticas/05-relatorios-com-parametros/relatorio-exemplo.html#barragens-cadastradas",
-    "href": "praticas/05-relatorios-com-parametros/relatorio-exemplo.html#barragens-cadastradas",
+    "objectID": "praticas/05-relatorios-com-parametros/relatorio-exemplo.html#barragens-por-dano-potencial-associado-dpa",
+    "href": "praticas/05-relatorios-com-parametros/relatorio-exemplo.html#barragens-por-dano-potencial-associado-dpa",
     "title": "Barragens de mineração em SP",
-    "section": "Barragens cadastradas",
-    "text": "Barragens cadastradas"
+    "section": "Barragens por dano potencial associado (DPA)",
+    "text": "Barragens por dano potencial associado (DPA)"
   },
   {
-    "objectID": "praticas/05-relatorios-com-parametros/relatorio-exemplo.html#barragens-segundo-dpa",
-    "href": "praticas/05-relatorios-com-parametros/relatorio-exemplo.html#barragens-segundo-dpa",
+    "objectID": "praticas/05-relatorios-com-parametros/relatorio-exemplo.html#barragens-cadastradas-no-sigbm",
+    "href": "praticas/05-relatorios-com-parametros/relatorio-exemplo.html#barragens-cadastradas-no-sigbm",
     "title": "Barragens de mineração em SP",
-    "section": "Barragens segundo DPA",
-    "text": "Barragens segundo DPA"
+    "section": "Barragens cadastradas no SIGBM\n",
+    "text": "Barragens cadastradas no SIGBM\n\n\n\n\n\n\n\n\n\n\nMunicípio\nBarragem\nEmpreendedor\n\n\n\nAGUAÍ\nTANQUE DE DECANTAÇÃO\nMineração Santa Luzia de Aguaí Ltda\n\n\nAGUAÍ\nTANQUE DE DECANTAÇÃO 2\nMineração Santa Luzia de Aguaí Ltda\n\n\nALAMBARI\nTD2\nDISK-BASE EXT.DE AREIA E COM.DE MAT.P/CONST.LTDA\n\n\nANALÂNDIA\n12 - AN\nMineração Jundu Ltda.\n\n\nANALÂNDIA\n13 - AN\nMineração Jundu Ltda.\n\n\nBOFETE\nTANQUE DE LAMA\nCONCRESAND MINERACAO LTDA\n\n\nBOFETE\nSedimentação de finos\nEXTRAÇÃO E COMÉRCIO DE AREIA BOFETE LTDA\n\n\nBOFETE\n1. CONJUNTO DE LEIRAS DE DECANTAÇÃO\nMINERADORA AREIA NOVA LTDA\n\n\nBOFETE\nConjunto de cavas em desativação recuperação\nMINERADORA AREIA NOVA LTDA\n\n\nBOFETE\ndecantação de finos / reservatorio agua processo\nMINERADORA AREIA NOVA LTDA\n\n\nBOFETE\nRX-01\nMINERADORA AREIA NOVA LTDA\n\n\nCAIEIRAS\nBarramento 1\nMINERADORA PEDRIX LTDA\n\n\nCAJATI\nBarragem 1\nMOSAIC FERTILIZANTES P&K LTDA.\n\n\nCAJATI\nBarragem 2\nMOSAIC FERTILIZANTES P&K LTDA.\n\n\nCAJATI\nBarragem B12\nMOSAIC FERTILIZANTES P&K LTDA.\n\n\nCAPIVARI\nCAVA\nMILTON JOSE APARECIDO GIULI\n\n\nCARAGUATATUBA\nDeposito de Finos Porto de Areia Serramar\nPecuária Serramar EIRELI\n\n\nCORUMBATAÍ\nTANQUE DE DECANTAÇÃO\nMINERACAO DO VALE LTDA\n\n\nDESCALVADO\nMD 05/2016\nMINERACAO DESCALVADO LIMITADA\n\n\nDESCALVADO\n11 - DES\nMineração Jundu Ltda.\n\n\nDESCALVADO\n12 - DES\nMineração Jundu Ltda.\n\n\nGUARAREMA\nGuará 2\nMINERADORA PONTE ALTA LTDA\n\n\nGUARAREMA\nGuará 3\nMINERADORA PONTE ALTA LTDA\n\n\nHORTOLÂNDIA\nConterpa\nConterpa, Conservação e Terraplagem e Pavimentação Ltda\n\n\nHORTOLÂNDIA\nCOTERPA\nFRANCISCO DE ASSIS RODRIGUES\n\n\nIBIÚNA\nMBR II NORTE\nMINERACAO BOM RETIRO II EIRELI\n\n\nIBIÚNA\nMBR II SUL\nMINERACAO BOM RETIRO II EIRELI\n\n\nITAPETININGA\nCHAPADINHA 061\nUilson Romanha & Cia Ltda\n\n\nITAPETININGA\nChapadinha 061 B\nUilson Romanha & Cia Ltda\n\n\nITAPETININGA\nCHAPADINHA 221\nUilson Romanha & Cia Ltda\n\n\nLEME\nBom Retiro 1\nMINERAÇÃO BOM RETIRO LTDA.\n\n\nLEME\nBom Retiro 2\nMINERAÇÃO BOM RETIRO LTDA.\n\n\nMOGI DAS CRUZES\nDutra\nDUTRA EXTRACAO DE AREIA LTDA\n\n\nMOGI DAS CRUZES\nBarragem de Sedimentos da Pedreira Itapeti - BA1\nEMBU S A ENGENHARIA E COMERCIO\n\n\nMOGI DAS CRUZES\nBarragem de Sedimentos da Pedreira Itapeti - BA2\nEMBU S A ENGENHARIA E COMERCIO\n\n\nMOGI DAS CRUZES\nSítio Horii\nEMPRESA DE MINERACAO HORII LTDA\n\n\nMOGI DAS CRUZES\nTABOÃO 01\nEXTRACAO DE AREIA TABOAO LTDA\n\n\nMOGI DAS CRUZES\nTABOÃO 02\nEXTRACAO DE AREIA TABOAO LTDA\n\n\nMOGI DAS CRUZES\nTABOÃO 03\nEXTRACAO DE AREIA TABOAO LTDA\n\n\nMOGI DAS CRUZES\nBoa Sorte\nEmpresa Mineradora Boa Sorte Ltda\n\n\nMOGI DAS CRUZES\nFiori\nEmpresa de Mineração Fiori do Taboão Ltda.\n\n\nMOGI DAS CRUZES\nJBS1\nEmpresa de Mineração e Artefatos de Cimento Jbs Ltda Epp\n\n\nMOGI DAS CRUZES\nPORTO-4A\nItaquareia Ind. Extr. Minérios Ltda\n\n\nMOGI DAS CRUZES\nPORTO-4B\nItaquareia Ind. Extr. Minérios Ltda\n\n\nMOGI DAS CRUZES\nCAMC\nMINERADORA PONTE ALTA LTDA\n\n\nMONTE MOR\nTANQUE DE DECANTAÇÃO\nT B K - MINERACAO LIMITADA\n\n\nPEDREIRA\nCascalho\nMINERACAO DIBASE PEDREIRA LTDA\n\n\nRIBEIRÃO BRANCO\nITAPEVA\nSAMACA FERROS LTDA\n\n\nSALTO DE PIRAPORA\nOURO BRANCO OESTE\nMINERAÇÃO OURO BRANCO SALTO DE PIRAPORA LTDA ME\n\n\nSALTO DE PIRAPORA\nPIRAPORÃO 138 II\nUilson Romanha & Cia Ltda\n\n\nSALTO DE PIRAPORA\nPIRAPORÃO 138 III\nUilson Romanha & Cia Ltda\n\n\nSANTA ISABEL\nDique 1 (Barragem 2 -Britagem)\nPEDREIRA SARGON LTDA\n\n\nSANTA ISABEL\nDique 2\nPEDREIRA SARGON LTDA\n\n\nSANTA ISABEL\nDique 3 (Barragem 1 - Portaria)\nPEDREIRA SARGON LTDA\n\n\nSANTA ISABEL\nDique 4 (Barragem 3 - Bota fora)\nPEDREIRA SARGON LTDA\n\n\nSANTA ISABEL\nDique 5 (Barragem 4 - Bota fora)\nPEDREIRA SARGON LTDA\n\n\nSANTANA DE PARNAÍBA\nBACIA DE DECANTAÇÃO - PLANTA I\nGeocal Mineração Ltda\n\n\nSANTOS\nengebrita\nPedreira Engebrita Ltda\n\n\nSARAPUÍ\nUNIDOS\nUnidos Extração e Comércio de Areia e Pedra Ltda Epp\n\n\nSOROCABA\nFazenda Santa Fé\nTECH ROCK MINERACAO LTDA\n\n\nSÃO PAULO\nBARRAGEM DE CLARIFICAÇÃO\nAGIS MINERACAO LTDA.\n\n\nSÃO PAULO\nBarragem de Sedimentos da Pedreira Juruaçu - BA4\nEMBU S A ENGENHARIA E COMERCIO\n\n\nSÃO PAULO\nCAVA 1\nL Pavan & Cia Ltda\n\n\nSÃO PAULO\nCAVA 2\nL Pavan & Cia Ltda\n\n\nSÃO SIMÃO\nLagoa 1\nMINERACAO DARCY R.O. E SILVA LTDA\n\n\nSÃO SIMÃO\nLagoa 2\nMINERACAO DARCY R.O. E SILVA LTDA\n\n\nTATUÍ\nQuevedo 1\nEXTRACAO E COMERCIO DE AREIA QUEVEDO & SILVA LTDA\n\n\nTATUÍ\nQuevedo 3\nEXTRACAO E COMERCIO DE AREIA QUEVEDO & SILVA LTDA"
   }
 ]

@@ -252,7 +252,7 @@ contar_diferenca_de_datas(data_inicial = "2023-04-21",
 # e adaptar para uma função...
 
 
-# EXERCÍCIOS - FUNÇÕES BÁSICO: 02-exercicios-funcoes.R
+# EXERCÍCIOS - FUNÇÕES BÁSICO: 02-exercicios-funcoes.R -----------------------
 rstudioapi::documentOpen("scripts/02-exercicios-funcoes.R")
 
 
