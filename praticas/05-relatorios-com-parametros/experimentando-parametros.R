@@ -20,13 +20,35 @@ quarto_render(
 
 
 # podemos transformar isso em uma funcao
-gerar_relatorio_uf <- function(uf) {
+gerar_relatorio_uf_v1 <- function(uf) {
   quarto_render(
     input = arquivo_qmd,
     execute_params = list(estado = uf),
     output_file = glue::glue("relatorio_barragens_{uf}_{Sys.Date()}.html")
   )
 }
+
+
+# Ainda não está com o comportamento esperado!
+
+gerar_relatorio_uf <- function(uf_funcao){
+  
+  arquivo_html <- glue::glue("praticas/05-relatorios-com-parametros/relatorio_barragens_{uf_funcao}.html")
+  
+  quarto_render(input = arquivo_qmd,
+                execute_params = list(estado = uf_funcao),
+                quiet = TRUE)
+  
+  
+  
+  # mover para a pasta desejada
+  fs::file_move(
+    path = "praticas/05-relatorios-com-parametros/relatorio-exemplo.html",
+    new_path = arquivo_html
+  )
+  
+}
+
 
 # uf <- "X"
 # paste0("relatorio_barragens_", uf, ".html")
