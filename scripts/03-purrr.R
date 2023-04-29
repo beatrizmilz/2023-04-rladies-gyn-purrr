@@ -223,3 +223,6 @@ pluck(grafico, "labels", "x")
 vec <- c(a = 1, b = 2, c = 3)
 set_names(vec, c("primeiro", "segundo", "terceiro"))
 
+
+# VAMOS AOS EXEMPLOS PRÁTICOS!  -----------------------
+rstudioapi::documentOpen("scripts/04-exemplos.R")

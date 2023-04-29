@@ -59,3 +59,6 @@ calcular_lucro_filme_pixar("Soul")
 calcular_lucro_filme_pixar()
 
 
+
+# VAMOS AO PURRR  -----------------------
+rstudioapi::documentOpen("scripts/03-purrr.R")
