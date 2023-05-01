@@ -5,7 +5,7 @@ date: "2023-04-29"
 output: html_document
 theme: minty
 params:
-  estado: "SP"
+  estado: "PR"
 embed-resources: true
 knitr:
   opts_chunk: 
@@ -52,6 +52,7 @@ barragens_filtradas |>
   theme_minimal() +
   labs(y = "Quantidade", x = "Dano potencial associado")
 ```
+
 ## Barragens cadastradas no [SIGBM](https://app.anm.gov.br/SIGBM/Publico/ClassificacaoNacionalDaBarragem)
 
 ```{r}
@@ -61,4 +62,3 @@ barragens_filtradas |>
   arrange(municipio, nome_do_empreendedor) |> 
   knitr::kable(col.names = c("Município", "Barragem", "Empreendedor"))
 ```
-

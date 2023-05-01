@@ -13,13 +13,15 @@ baixar_dados_autorizacao_exploracao_florestal <- function(uf, ano) {
            ano,
            ".csv")
   
-  caminho_baixar <- paste0("data/autorizacao_exploracao_florestal_",
+  caminho_baixar <- paste0("data/AUTEX/autorizacao_exploracao_florestal_",
                            uf, "_",
                            ano, ".csv")
   
+  fs::dir_create(dirname(caminho_baixar))
+  
   resposta <- httr::GET(url_buscar, 
                         config = httr::config(ssl_verifypeer = FALSE),
-                        httr::write_disk(caminho_baixar, overwrite = FALSE))
+                        httr::write_disk(caminho_baixar, overwrite = TRUE))
   
   resposta$status_code
 }
@@ -45,6 +47,13 @@ purrr::map(
   .f = ~ baixar_dados_autorizacao_exploracao_florestal(.x$uf, .x$anos), 
   .progress = TRUE
 )
+
+
+# purrr::map(
+#   .x = listas_grupos[-c(1:364)],
+#   .f = ~ baixar_dados_autorizacao_exploracao_florestal(.x$uf, .x$anos), 
+#   .progress = TRUE
+# )
 
 
 

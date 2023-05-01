@@ -1,5 +1,6 @@
 library(quarto)
 
+# rmarkdown::render()
 
 arquivo_qmd <-
   "praticas/05-relatorios-com-parametros/relatorio-exemplo.qmd"
@@ -28,6 +29,7 @@ gerar_relatorio_uf_v1 <- function(uf) {
   )
 }
 
+gerar_relatorio_uf_v1("AM")
 
 # Ainda não está com o comportamento esperado!
 
@@ -38,7 +40,6 @@ gerar_relatorio_uf <- function(uf_funcao){
   quarto_render(input = arquivo_qmd,
                 execute_params = list(estado = uf_funcao),
                 quiet = TRUE)
-  
   
   
   # mover para a pasta desejada
@@ -63,9 +64,12 @@ gerar_relatorio_uf("MG")
 # .f = FUNCAO_QUE_QUEREMOS_APLICAR, .progress = TRUE)
 
 # vetor para repetir
-estados_com_barragens <- unique(barragens$uf)
 
+barragens <- readxl::read_xlsx("praticas/05-relatorios-com-parametros/sigbm.xlsx", skip = 3)
 
+estados_com_barragens <- unique(barragens$UF)
+
+library(tidyverse)
 map(estados_com_barragens, gerar_relatorio_uf, .progress = TRUE)
 
 
