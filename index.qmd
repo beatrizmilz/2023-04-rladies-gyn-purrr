@@ -11,13 +11,18 @@ Neste site, você pode encontrar:
 
 -   [Inscrições](https://www.sympla.com.br/evento-online/introducao-ao-pacote-purrr/1871113): você pode se inscrever **gratuitamente**, ou também **contribuir voluntariamente** com um valor entre R\$5 à R\$50 para doação para o projeto [CasaNem](https://www.instagram.com/casanem_/).
 
-<!-- -->
-
 -   [Pré-requisitos](pre-requisitos.qmd): o que você precisa instalar antes da atividade;
 
 -   [Slides](slide.qmd): consulte os slides usados na atividade;
 
 -   [Links extras](links-extras.qmd) para estudar mais, após a atividade.
+
+
+
+
+<br><center><a href="https://github.com/beatrizmilz/2023-04-rladies-gyn-purrr/archive/refs/heads/main.zip"><button type="button" class="btn btn-primary">Faça download do material*</button></a></center><br>
+
+*: Esse link contém tudo o que usamos na atividade, e também alguns arquivos relacionados à este site. O mais importante são as pastas `dados/` (contém as bases de dados usadas na atividade), `scripts/` (arquivos `.R` usadas nas partes 1 e 2 da atividade) e `praticas/` (arquivos usados na parte final da atividade).
 
 ## [R-Ladies Goiânia](https://www.rladiesgyn.com/)
 

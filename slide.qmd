@@ -6,3 +6,7 @@ author: "Beatriz Milz"
 <a href="/slides.html" target="_blank"> ![](img/slide.png){fig-align="center"}
 
 </a>
+
+<br><center><a href="https://github.com/beatrizmilz/2023-04-rladies-gyn-purrr/archive/refs/heads/main.zip"><button type="button" class="btn btn-primary">Faça download do material*</button></a></center><br>
+
+*: Esse link contém tudo o que usamos na atividade, e também alguns arquivos relacionados à este site. O mais importante são as pastas `dados/` (contém as bases de dados usadas na atividade), `scripts/` (arquivos `.R` usadas nas partes 1 e 2 da atividade) e `praticas/` (arquivos usados na parte final da atividade).
